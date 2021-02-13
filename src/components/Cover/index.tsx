@@ -4,7 +4,7 @@ export type CoverTypes = {
   upside?: boolean
 }
 
-const Cover = ({ upside = false }) => (
+const Cover = ({ upside = false }: CoverTypes) => (
   <S.Wrapper upside={upside}>
     <S.TopDetail />
     <S.TopDetail right />
