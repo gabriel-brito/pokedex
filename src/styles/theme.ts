@@ -23,6 +23,8 @@ export default {
   },
   colors: {
     black: '#000000',
+    red: '#d31e25',
+    visorBlue: '#e0f5fe',
     white: '#FFFFFF'
   },
   spacings: {
